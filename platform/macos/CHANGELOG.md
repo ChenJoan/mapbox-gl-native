@@ -6,6 +6,11 @@
 
 * Deprecated `+[NSExpression featurePropertiesVariableExpression]` use `+[NSExpression featureAttributesVariableExpression]` instead. ([#11748](https://github.com/mapbox/mapbox-gl-native/pull/11748))
 
+### Other changes
+
+* Adjusted when and how the camera transition update and finish callbacks are called, fixing recursion bugs. ([#5833](https://github.com/mapbox/mapbox-gl-native/issues/5833), [#11180](https://github.com/mapbox/mapbox-gl-native/issues/11180))
+
+
 ## 0.7.0 - April 19, 2018
 
 The 0.7._x_ series of releases will be the last to support macOS 10.10. The minimum macOS deployment version will increase to macOS 10.11.0 in a future release.

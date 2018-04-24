@@ -11,6 +11,7 @@ Mapbox welcomes participation and contributions from everyone. Please read [CONT
 ### Other
 
 * Fixed an issue where `-[MGLMapView metersPerPixelAtLatitude:]` was removed, but not marked as unavailable. ([#11765](https://github.com/mapbox/mapbox-gl-native/pull/11765))
+* Adjusted when and how the camera transition update and finish callbacks are called, fixing recursion bugs. ([#5833](https://github.com/mapbox/mapbox-gl-native/issues/5833), [#11180](https://github.com/mapbox/mapbox-gl-native/issues/11180))
 
 ## 4.0.0 - April 19, 2018
 
